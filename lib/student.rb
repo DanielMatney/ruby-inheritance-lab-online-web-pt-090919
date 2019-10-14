@@ -1,5 +1,5 @@
 class Student < User
-  attr_accessor :first, :last
+  attr_accessor :first, :last, :knowledge
   
   @knowledge = []
 end
